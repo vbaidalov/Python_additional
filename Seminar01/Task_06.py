@@ -15,6 +15,3 @@ if revenue > expenses:
 else:
     net_loss = expenses - revenue
     print(f"Компания отработала в минус {net_loss}руб.")
-
-
-
