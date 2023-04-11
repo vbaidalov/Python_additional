@@ -5,7 +5,5 @@
 
 
 my_list = (1, 10, "Google", ["Кошка", 13], {10: 77}, 55.4)
-print(my_list)
-
-x = int(input("Введите номер для проверки: "))
-print(type(my_list[x]))
+for i in range (len(my_list)):
+    print(f"Тип переменной в списке: {type(my_list[i])}")

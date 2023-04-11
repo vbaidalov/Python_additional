@@ -7,7 +7,7 @@ from random import randint
 n = int(input("Определите длинну списка: "))
 list_n = []
 for i in range(n):
-       list_n.append(randint(0, 20))
+    list_n.append(randint(0, 20))
 print(f"Первый список: {list_n}")
 
 for i in range(0, len(list_n)-1, 2):
