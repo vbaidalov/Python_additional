@@ -12,6 +12,7 @@ while True:
         break
     print(a)
 
+# разбить на подзадачи
 
 
 
